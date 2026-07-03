@@ -1,0 +1,322 @@
+[
+  {
+    "id": "t1",
+    "title": "Finish project report",
+    "description": "Write and submit the Q3 project report",
+    "priority": "High",
+    "dueDate": "2026-07-10",
+    "status": "Pending"
+  },
+  {
+    "id": "t2",
+    "title": "Team meeting",
+    "description": "Weekly sprint planning with the development team",
+    "priority": "Medium",
+    "dueDate": "2026-07-05",
+    "status": "Pending"
+  },
+  {
+    "id": "t3",
+    "title": "Fix login bug",
+    "description": "Resolve authentication issue affecting new users",
+    "priority": "High",
+    "dueDate": "2026-07-04",
+    "status": "In Progress"
+  },
+  {
+    "id": "t4",
+    "title": "Update documentation",
+    "description": "Add API usage examples to developer docs",
+    "priority": "Low",
+    "dueDate": "2026-07-15",
+    "status": "Pending"
+  },
+  {
+    "id": "t5",
+    "title": "Database backup",
+    "description": "Create a full backup before deployment",
+    "priority": "High",
+    "dueDate": "2026-07-03",
+    "status": "Completed"
+  },
+  {
+    "id": "t6",
+    "title": "Review pull requests",
+    "description": "Review open PRs from frontend team",
+    "priority": "Medium",
+    "dueDate": "2026-07-06",
+    "status": "Pending"
+  },
+  {
+    "id": "t7",
+    "title": "Prepare presentation",
+    "description": "Create slides for client demo",
+    "priority": "High",
+    "dueDate": "2026-07-12",
+    "status": "In Progress"
+  },
+  {
+    "id": "t8",
+    "title": "Optimize queries",
+    "description": "Improve SQL query performance",
+    "priority": "High",
+    "dueDate": "2026-07-09",
+    "status": "Pending"
+  },
+  {
+    "id": "t9",
+    "title": "Design homepage",
+    "description": "Create new homepage wireframe",
+    "priority": "Medium",
+    "dueDate": "2026-07-14",
+    "status": "Pending"
+  },
+  {
+    "id": "t10",
+    "title": "Send invoices",
+    "description": "Email monthly invoices to clients",
+    "priority": "High",
+    "dueDate": "2026-07-02",
+    "status": "Completed"
+  },
+  {
+    "id": "t11",
+    "title": "Write unit tests",
+    "description": "Increase backend test coverage",
+    "priority": "Medium",
+    "dueDate": "2026-07-08",
+    "status": "In Progress"
+  },
+  {
+    "id": "t12",
+    "title": "Deploy staging build",
+    "description": "Push latest release to staging environment",
+    "priority": "High",
+    "dueDate": "2026-07-07",
+    "status": "Pending"
+  },
+  {
+    "id": "t13",
+    "title": "Customer feedback review",
+    "description": "Analyze recent customer survey responses",
+    "priority": "Low",
+    "dueDate": "2026-07-18",
+    "status": "Pending"
+  },
+  {
+    "id": "t14",
+    "title": "Security audit",
+    "description": "Review application security vulnerabilities",
+    "priority": "High",
+    "dueDate": "2026-07-16",
+    "status": "Pending"
+  },
+  {
+    "id": "t15",
+    "title": "Update dependencies",
+    "description": "Upgrade npm packages to latest stable versions",
+    "priority": "Medium",
+    "dueDate": "2026-07-11",
+    "status": "In Progress"
+  },
+  {
+    "id": "t16",
+    "title": "Clean workspace",
+    "description": "Organize project files and remove unused assets",
+    "priority": "Low",
+    "dueDate": "2026-07-20",
+    "status": "Pending"
+  },
+  {
+    "id": "t17",
+    "title": "Interview candidate",
+    "description": "Conduct frontend developer interview",
+    "priority": "Medium",
+    "dueDate": "2026-07-13",
+    "status": "Pending"
+  },
+  {
+    "id": "t18",
+    "title": "Create dashboard",
+    "description": "Develop analytics dashboard UI",
+    "priority": "High",
+    "dueDate": "2026-07-21",
+    "status": "Pending"
+  },
+  {
+    "id": "t19",
+    "title": "Fix mobile layout",
+    "description": "Resolve responsive design issues",
+    "priority": "Medium",
+    "dueDate": "2026-07-09",
+    "status": "Completed"
+  },
+  {
+    "id": "t20",
+    "title": "Write blog post",
+    "description": "Publish article about React performance tips",
+    "priority": "Low",
+    "dueDate": "2026-07-22",
+    "status": "Pending"
+  },
+  {
+    "id": "t21",
+    "title": "API integration",
+    "description": "Connect payment gateway APIs",
+    "priority": "High",
+    "dueDate": "2026-07-17",
+    "status": "In Progress"
+  },
+  {
+    "id": "t22",
+    "title": "Monitor server logs",
+    "description": "Check production logs for errors",
+    "priority": "Medium",
+    "dueDate": "2026-07-06",
+    "status": "Completed"
+  },
+  {
+    "id": "t23",
+    "title": "Create onboarding guide",
+    "description": "Document setup process for new employees",
+    "priority": "Low",
+    "dueDate": "2026-07-24",
+    "status": "Pending"
+  },
+  {
+    "id": "t24",
+    "title": "Performance testing",
+    "description": "Run load tests before production release",
+    "priority": "High",
+    "dueDate": "2026-07-19",
+    "status": "Pending"
+  },
+  {
+    "id": "t25",
+    "title": "Update roadmap",
+    "description": "Plan features for next quarter",
+    "priority": "Medium",
+    "dueDate": "2026-07-28",
+    "status": "Pending"
+  },
+  {
+    "id": "t26",
+    "title": "Client follow-up",
+    "description": "Schedule follow-up meeting with enterprise client",
+    "priority": "Medium",
+    "dueDate": "2026-07-08",
+    "status": "Completed"
+  },
+  {
+    "id": "t27",
+    "title": "Fix payment issue",
+    "description": "Resolve duplicate payment bug",
+    "priority": "High",
+    "dueDate": "2026-07-05",
+    "status": "In Progress"
+  },
+  {
+    "id": "t28",
+    "title": "Refactor auth module",
+    "description": "Simplify authentication service architecture",
+    "priority": "High",
+    "dueDate": "2026-07-23",
+    "status": "Pending"
+  },
+  {
+    "id": "t29",
+    "title": "Prepare release notes",
+    "description": "Summarize new features and bug fixes",
+    "priority": "Medium",
+    "dueDate": "2026-07-18",
+    "status": "Pending"
+  },
+  {
+    "id": "t30",
+    "title": "Conduct code review",
+    "description": "Review backend service implementation",
+    "priority": "Medium",
+    "dueDate": "2026-07-10",
+    "status": "Completed"
+  },
+  {
+    "id": "t31",
+    "title": "Research AI tools",
+    "description": "Compare productivity AI solutions for the team",
+    "priority": "Low",
+    "dueDate": "2026-07-30",
+    "status": "Pending"
+  },
+  {
+    "id": "t32",
+    "title": "Setup CI pipeline",
+    "description": "Configure GitHub Actions workflow",
+    "priority": "High",
+    "dueDate": "2026-07-12",
+    "status": "In Progress"
+  },
+  {
+    "id": "t33",
+    "title": "Update privacy policy",
+    "description": "Revise legal documentation for compliance",
+    "priority": "Medium",
+    "dueDate": "2026-07-27",
+    "status": "Pending"
+  },
+  {
+    "id": "t34",
+    "title": "UI accessibility audit",
+    "description": "Improve accessibility across all pages",
+    "priority": "Medium",
+    "dueDate": "2026-07-25",
+    "status": "Pending"
+  },
+  {
+    "id": "t35",
+    "title": "Create marketing assets",
+    "description": "Design social media banners for launch",
+    "priority": "Low",
+    "dueDate": "2026-07-29",
+    "status": "Pending"
+  },
+  {
+    "id": "t36",
+    "title": "Bug triage",
+    "description": "Prioritize newly reported issues",
+    "priority": "High",
+    "dueDate": "2026-07-04",
+    "status": "Completed"
+  },
+  {
+    "id": "t37",
+    "title": "Configure monitoring",
+    "description": "Set up uptime and error monitoring alerts",
+    "priority": "High",
+    "dueDate": "2026-07-15",
+    "status": "Pending"
+  },
+  {
+    "id": "t38",
+    "title": "Plan team outing",
+    "description": "Organize monthly team-building event",
+    "priority": "Low",
+    "dueDate": "2026-07-31",
+    "status": "Pending"
+  },
+  {
+    "id": "t39",
+    "title": "Prototype new feature",
+    "description": "Build MVP for task collaboration feature",
+    "priority": "Medium",
+    "dueDate": "2026-07-26",
+    "status": "In Progress"
+  },
+  {
+    "id": "t40",
+    "title": "Archive completed tasks",
+    "description": "Move completed tasks to archive storage",
+    "priority": "Low",
+    "dueDate": "2026-08-01",
+    "status": "Pending"
+  }
+]
