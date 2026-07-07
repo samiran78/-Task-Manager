@@ -1,4 +1,4 @@
-function TaskItem({ task,deleteTask }) {
+function TaskItem({ task,deleteTask,toggleComplete }) {
     return (
         <div className="task-item">
             <h3>{task.title}</h3>
@@ -7,6 +7,7 @@ function TaskItem({ task,deleteTask }) {
             <p>Due: {task.dueDate}</p>
             <p>Status: {task.status}</p>
             <button onClick={() => deleteTask(task.id)}>Delete</button>
+            <button onClick={() => toggleComplete(task.id)}>Toggle Complete</button>
         </div>
     )
 }

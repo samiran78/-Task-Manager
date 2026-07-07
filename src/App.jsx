@@ -14,12 +14,20 @@ function App() {
   function deleteTask(id) {
   setTasks(tasks.filter((task) => task.id !== id))
 }
+//marking as completed
+function toggleComplete(id) {
+  setTasks(
+    tasks.map((task) =>
+      task.id === id ? { ...task, status: 'Completed' } : task
+    )
+  )
+}
   return (
     <div>
       <h1>Task Manager</h1>
        <TaskForm addTask={addTask} />
        {/* we did prop drilling to pass delete tasks through TaskList to TaskItem, so that we can delete the task from there. */}
-      <TaskList tasks={tasks} deleteTask={deleteTask}/>   
+      <TaskList tasks={tasks} deleteTask={deleteTask} toggleComplete={toggleComplete}/>   
     </div> 
   )
 }
