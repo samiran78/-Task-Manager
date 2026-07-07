@@ -1,4 +1,4 @@
-function TaskItem({ task }) {
+function TaskItem({ task,deleteTask }) {
     return (
         <div className="task-item">
             <h3>{task.title}</h3>
@@ -6,6 +6,7 @@ function TaskItem({ task }) {
             <p>Priority: {task.priority}</p>
             <p>Due: {task.dueDate}</p>
             <p>Status: {task.status}</p>
+            <button onClick={() => deleteTask(task.id)}>Delete</button>
         </div>
     )
 }

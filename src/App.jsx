@@ -10,11 +10,16 @@ function App() {
     //creates one new array containing everything — that single array is what gets passed to setTasks.
     setTasks([...tasks,newTask]);
   }
+  //deleting task
+  function deleteTask(id) {
+  setTasks(tasks.filter((task) => task.id !== id))
+}
   return (
     <div>
       <h1>Task Manager</h1>
        <TaskForm addTask={addTask} />
-      <TaskList tasks={tasks} />
+       {/* we did prop drilling to pass delete tasks through TaskList to TaskItem, so that we can delete the task from there. */}
+      <TaskList tasks={tasks} deleteTask={deleteTask}/>   
     </div> 
   )
 }
